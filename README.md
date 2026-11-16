@@ -1,8 +1,8 @@
-# VERITY
+# LEOPARD
 
 ## Overview
 
-**VERITY** is a research project for detecting propaganda techniques in politically charged online discourse, with a special focus on Reddit. Unlike traditional propaganda detection systems that are trained mainly on formal news articles, this project targets informal, conversational, and community-driven language such as Reddit posts, replies, memes, slogans, sarcasm, and emotionally loaded political arguments.
+**LEOPARD** is a research project for detecting propaganda techniques in politically charged online discourse, with a special focus on Reddit. Unlike traditional propaganda detection systems that are trained mainly on formal news articles, this project targets informal, conversational, and community-driven language such as Reddit posts, replies, memes, slogans, sarcasm, and emotionally loaded political arguments.
 
 The project uses a transformer-based multi-label classifier built on **DeBERTa-v3-large** with **RoRA adapters**. It combines established propaganda benchmarks such as **SemEval-2020 Task 11** with a newly collected Reddit-domain dataset. The goal is not only to classify propaganda, but also to support fragment/span-level detection and visualization of propaganda techniques inside real online discussions.
 
